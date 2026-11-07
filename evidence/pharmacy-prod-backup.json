@@ -1,0 +1,91 @@
+{
+  "type": "pharmacy-prod-backup",
+  "schema": 1,
+  "created": "2026-11-07T07:14:57.372Z",
+  "data": {
+    "version": "1.4.0",
+    "api": 1,
+    "adapter": false,
+    "clients": {
+      "shop": 1,
+      "pickup": 1,
+      "support": 1
+    },
+    "branch": "center",
+    "cart": {},
+    "promo": "",
+    "orders": [
+      {
+        "id": "P-0001",
+        "request": "prod-1794035459655-975d5e",
+        "code": "DEMO-001",
+        "branch": "center",
+        "state": "ready",
+        "total": 25000,
+        "discount": 0,
+        "created": "2026-11-07T07:10:59.656Z",
+        "version": "1.4.0",
+        "lines": [
+          {
+            "id": "P01",
+            "quantity": 1,
+            "price": 25000
+          }
+        ]
+      }
+    ],
+    "nextOrder": 2,
+    "stocks": {
+      "P01": {
+        "center": 7,
+        "park": 2
+      },
+      "P02": {
+        "center": 12,
+        "park": 8
+      },
+      "P03": {
+        "center": 1,
+        "park": 5
+      },
+      "P04": {
+        "center": 9,
+        "park": 3
+      },
+      "P05": {
+        "center": 4,
+        "park": 0
+      },
+      "P06": {
+        "center": 2,
+        "park": 1
+      },
+      "P07": {
+        "center": 0,
+        "park": 6
+      },
+      "P08": {
+        "center": 5,
+        "park": 4
+      },
+      "P09": {
+        "center": 7,
+        "park": 7
+      },
+      "P10": {
+        "center": 0,
+        "park": 0
+      },
+      "P11": {
+        "center": 3,
+        "park": 5
+      },
+      "P12": {
+        "center": 20,
+        "park": 20
+      }
+    },
+    "fault": "none",
+    "pending": null
+  }
+}
